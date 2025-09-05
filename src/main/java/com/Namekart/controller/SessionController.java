@@ -21,7 +21,8 @@ import com.Namekart.repository.NoteRepository;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:3000") // allow React
+@CrossOrigin(origins = "*") // allow React
+
 public class SessionController {
 		
 		@Autowired
